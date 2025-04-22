@@ -1,6 +1,6 @@
 const form = document.querySelector("form");
 const inputItem = document.getElementById("item");
-const deleteFix = document.querySelector("li .delete");
+const ul = document.querySelector("ul");
 let idCount = 0; // contador global para gerar IDs únicos
 
 item.addEventListener("keydown", function (event) {
@@ -37,8 +37,8 @@ function createItem(item) {
   span.innerText = item;
 
   deleteImg.src = "./assets/delete.svg";
+  deleteImg.classList.add("delete");
 
-  setupDeleteHandler(deleteImg);
 
   li.appendChild(inputCheck);
   li.appendChild(label);
@@ -46,7 +46,7 @@ function createItem(item) {
   li.appendChild(deleteImg);
 
   ul.append(li);
-  inputItem.value = '';
+  inputItem.value = "";
 }
 
 function showAlert() {
@@ -61,12 +61,12 @@ function hideAlert() {
   alert.style.display = "none";
 }
 
-function setupDeleteHandler(deleteButton) {
-  deleteButton.addEventListener("click", function () {
-    deleteButton.parentElement.remove();
+ul.addEventListener("click", function (event){
+  if (event.target.classList.contains("delete")){
+    event.target.parentElement.remove();
     showAlert();
-  });
-}
+  }
+})
 
 const closeAlert = document.querySelector(".close-alert");
 if (closeAlert) {
