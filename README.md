@@ -1,6 +1,7 @@
 <h1 align="center">
-  <img alt="Logo" src="img/logo.svg" width="250px" >
+  <img alt="Logo" src="https://github.com/user-attachments/assets/50b700c0-9cbb-4499-988d-f60c765c2f01" width="250px" >
 </h1>
+
 
 <p align="center">
   O projeto é um site responsivo de lista de compras onde o usuário pode gerenciar os itens adicionando e removendo eles. 
@@ -26,7 +27,7 @@ Esse é um dos desafio da formação Full-Stack, um dos conteúdos disponíveis 
 
 <p align="center">💻 <b>Para PC:</b></p>
 <p align="center">
-  <img alt="Projeto para PC" src="https://github.com/user-attachments/assets/0e117dfe-c8b9-4b46-bfe4-8c4ce3dd205a" width="800px">
+  <img alt="Projeto para PC" src="" width="800px">
 </p>
 
 <!-- <p align="center">📱 <b>Para Celular:</b></p>
@@ -50,7 +51,7 @@ Esse projeto foi desenvolvido utilizando:
 
 ## 🔗 Link do Projeto
 
-Para acessar o projeto com suas funcionalidades <a href="https://project-convert-gamma.vercel.app/" target="_blank" style="color: #4a5dcd;">Clique Aqui</a>.
+Para acessar o projeto com suas funcionalidades <a href="" target="_blank" style="color: #4a5dcd;">Clique Aqui</a>.
 
 ## 📝 Licença
 
